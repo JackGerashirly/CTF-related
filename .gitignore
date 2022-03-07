@@ -1,0 +1,5 @@
+# 忽略 __init__.py
+__init__.py
+
+# 忽略 .idea 文件
+.idea
