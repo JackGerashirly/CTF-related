@@ -3,3 +3,6 @@ __init__.py
 
 # 忽略 .idea 文件
 .idea
+
+# 忽略 .git 文件
+.git
