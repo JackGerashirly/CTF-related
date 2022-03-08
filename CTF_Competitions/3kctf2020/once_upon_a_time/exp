@@ -1,0 +1,11 @@
+In [20]: plaintext = ''                                                         
+
+In [21]: for i in range(113): 
+    ...:     iv = iv ^ keystream[i] 
+    ...:     temp = iv ^ cipher[i] 
+    ...:     plaintext += chr(temp) 
+    ...:                                                                        
+
+In [22]: plaintext                                                              
+Out[22]: '3k{my_hands_are_registered_as_lethal_weapons_that_means_we_get_into_a_fight_i_accidentally_kill_you_i_go_to_jail}'
+
